@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>zuffy999 | Frontend Developer</title>
+    <meta name="description" content="Особисте портфоліо zuffy999 — Frontend Developer. Мої навички, технології та проєкти.">
+
+    <link rel="icon" type="image/png" href="./static/images/icon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/styles/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="#home">
+                    zuffy<span>999</span>
+                </a>
+
+                <div class="d-flex align-items-center gap-2 order-lg-2">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Змінити тему">
+                        ☀️
+                    </button>
+
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarMenu"
+                        aria-controls="navbarMenu"
+                        aria-expanded="false"
+                        aria-label="Відкрити меню">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse order-lg-1" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Головна</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Про мене</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Технології</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Проєкти</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-7 reveal">
+                        <p class="hero-label">ВІТАЮ НА МОЄМУ САЙТІ</p>
+
+                        <h1>
+                            Привіт, я <span>zuffy999</span>
+                        </h1>
+
+                        <h2>Frontend Developer</h2>
+
+                        <p class="hero-description">
+                            Створюю сучасні вебінтерфейси, експериментую
+                            з технологіями та перетворюю ідеї на цифрові проєкти.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">
+                                Мої проєкти
+                            </a>
+
+                            <a href="#contact" class="btn btn-outline-light">
+                                Зв'язатися
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 reveal">
+                        <div class="developer-card">
+
+                            <div class="avatar">
+                                <img src="./static/images/icon.png" alt="Аватар zuffy999">
+                            </div>
+
+                            <h3>zuffy999</h3>
+
+                            <p>Frontend Developer</p>
+
+                            <div class="status">
+                                <span></span>
+                                Вивчаю та створюю
+                            </div>
+
+                            <div class="code-preview">
+                                <span>const</span> developer = {<br>
+                                &nbsp;&nbsp;name: "zuffy999",<br>
+                                &nbsp;&nbsp;role: "Frontend Developer",<br>
+                                &nbsp;&nbsp;passion: "Coding"<br>
+                                };
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p>ЗНАЙОМСТВО</p>
+                    <h2>Про мене</h2>
+                </div>
+
+                <div class="about-card reveal">
+
+                    <p>
+                        Я — zuffy999, початківець у сфері Frontend Development.
+                        Цікавлюся створенням вебсайтів, програмуванням
+                        та розробкою власних цифрових продуктів.
+                    </p>
+
+                    <p>
+                        Програмування обрав через можливість створювати
+                        щось власне, розв'язувати задачі та втілювати
+                        цікаві ідеї за допомогою коду.
+                    </p>
+
+                    <p>
+                        Зараз розвиваю навички HTML, CSS, Bootstrap,
+                        Python та C#. Моя мета — стати професійним
+                        розробником і створювати якісні вебпроєкти.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p>МОЇ НАВИЧКИ</p>
+                    <h2>Tech Stack</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <div class="skill-icon">🌐</div>
+                            <h4>Frontend</h4>
+
+                            <div class="skill-list">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap 5</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <div class="skill-icon">⚙️</div>
+                            <h4>Programming</h4>
+
+                            <div class="skill-list">
+                                <span>Python</span>
+                                <span>C#</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <div class="skill-icon">🎮</div>
+                            <h4>Game Development</h4>
+
+                            <div class="skill-list">
+                                <span>Unity</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 reveal">
+                        <div class="skill-card">
+                            <div class="skill-icon">🛠️</div>
+                            <h4>Tools</h4>
+
+                            <div class="skill-list">
+                                <span>Git</span>
+                                <span>GitHub</span>
+                                <span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p>МОЇ РОБОТИ</p>
+                    <h2>Обрані проєкти</h2>
+                </div>
+
+                <div class="project-filters reveal">
+                    <button class="filter-btn active" data-filter="all">
+                        Усі
+                    </button>
+
+                    <button class="filter-btn" data-filter="web">
+                        Web
+                    </button>
+
+                    <button class="filter-btn" data-filter="game">
+                        Game Dev
+                    </button>
+
+                    <button class="filter-btn" data-filter="app">
+                        Apps
+                    </button>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- InfinityDoor -->
+                    <div class="col-lg-4 col-md-6 project-item reveal" data-category="game">
+                        <div class="project-card">
+
+                            <img src="./static/infinitydoor/infinitydoor.png"
+                                alt="InfinityDoor">
+
+                            <div class="project-content">
+
+                                <span class="project-type">GAME DEVELOPMENT</span>
+
+                                <h3>InfinityDoor</h3>
+
+                                <p>
+                                    Авторська хорор-гра з атмосферою,
+                                    дослідженням ігрового світу та загадками.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>Unity</span>
+                                    <span>C#</span>
+                                </div>
+
+                                <a href="https://gamejolt.com/games/infinitydoor/1105471"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="project-link">
+                                    Переглянути на Game Jolt ↗
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TechMarket -->
+                    <div class="col-lg-4 col-md-6 project-item reveal" data-category="web">
+                        <div class="project-card">
+
+                            <img src="./static/images/techmarket.png"
+                                alt="TechMarket">
+
+                            <div class="project-content">
+
+                                <span class="project-type">WEB DEVELOPMENT</span>
+
+                                <h3>TechMarket</h3>
+
+                                <p>
+                                    Навчальний вебсайт інтернет-магазину
+                                    електроніки з каталогом товарів.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Bootstrap</span>
+                                </div>
+
+                                <a href="https://github.com/zuffy999/site-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="project-link">
+                                    GitHub Repository ↗
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Telefont -->
+                    <div class="col-lg-4 col-md-6 project-item reveal" data-category="app">
+                        <div class="project-card">
+
+                            <img src="./static/telefont/telefont.png"
+                                alt="Telefont">
+
+                            <div class="project-content">
+
+                                <span class="project-type">APP DEVELOPMENT</span>
+
+                                <h3>Telefont</h3>
+
+                                <p>
+                                    Концепт офлайн-месенджера та
+                                    віртуальної операційної системи.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>Unity</span>
+                                    <span>C#</span>
+                                    <span>SQLite</span>
+                                </div>
+
+                                <span class="project-link">
+                                    У розробці
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p>БУДЬМО НА ЗВ'ЯЗКУ</p>
+                    <h2>Контакти</h2>
+                </div>
+
+                <div class="contact-card reveal">
+
+                    <h3>Маєш цікаву ідею?</h3>
+
+                    <p>
+                        Переглянь мої проєкти та знайди мене на GitHub.
+                    </p>
+
+                    <a href="https://github.com/zuffy999"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary">
+                        Мій GitHub ↗
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <a href="#home" class="footer-logo">
+                zuffy999
+            </a>
+
+            <p>Frontend Developer</p>
+
+            <p class="copyright">
+                © 2026 zuffy999. Усі права захищені.
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./static/js/script.js"></script>
+
+</body>
+</html>
